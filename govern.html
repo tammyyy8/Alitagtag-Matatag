@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Municipality of Alitagtag</title>
+</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="1.css">
+
+	<!-- HEADER -->
+	<center>
+		
+			<img alt="" src="header.png" style="width:1450px; height:150px"/>
+
+
+</head>
+
+
+<body>
+<!-- TOP Navigation -->
+<div class="topnav">
+  <a class="active" href="index.html">HOME</a>
+  <a href="govern.html">GOVERNMENT</a>
+  <a href="acc.html">ACCOMPLISMENT</a>
+  <a href="tour.html">TOURISM</a>
+  <a href="car.html">CAREER</a>
+  <a href="gal.html">GALLERY</a>
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+
+      <h2>BARANGAY OFFICIALS</h2>
+	  <p>ALITAGTAG</p>
+ 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for barangay.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="balagbag.html">Balagbag</a></li>
+  <li><a href="concepcion.html">Concepcion</a></li>
+
+  <li><a href="concordia.html">Concordia</a></li>
+  <li><a href="daleast.html">Dalipit East</a></li>
+
+  <li><a href="dalwest.html">Dalipit West</a></li>
+  <li><a href="domeast.html">Dominador East</a></li>
+  <li><a href="domwest.html">Dominador West</a></li>
+  <li><a href="munnorth.html">Munlawin North</a></li>
+  <li><a href="munsur.html">Munlawin Sur</a></li>
+  <li><a href="muzonprimera.html">Muzon Primera</a></li>
+
+  <li><a href="muzonsegundo.html">Muzon Segundo</a></li>
+  <li><a href="pinag.html">Pinagkursan</a></li>
+
+  <li><a href="pingas.html">Ping-as</a></li>
+  <li><a href="pobeast.html">Poblacion East</a></li>
+  <li><a href="pobwest.html">Poblacion West</a></li>
+  <li><a href="sanjose.html">San Jose</a></li>
+  <li><a href="sanjuan.html">San Juan</a></li>
+
+  <li><a href="stacruz.html">Sta. Cruz</a></li>
+  <li><a href="tadlac.html">Tadlac</a></li>
+
+  
+</ul>
+
+	 
+  
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>HON. EDILBERTO "DINGDONG" PONGGOS</h2>
+      <div class="fakeimg" style="height:310px;"><img src="hon.png" /></div>
+      <p>22nd Municipal Mayor</br> Alitagtag, Batangas</p>
+    </div>
+    <div class="card">
+      <img src="icon/hot.png" style="height:75px; width:75px"/>
+      <div class="fakeimg">OFFICE OF THE MAYOR: 09502391931</div><br>
+      <div class="fakeimg">MUNICIPAL HEALTH OFFICE:09297225118</div><br>
+      <div class="fakeimg">PNP: 772-3058</div>
+	  <div class="fakeimg">MDRRMO: 772-005</div>
+    </div>
+    <div class="card">
+      <div class="fakeimg"><img src="icon/egp.png" style="height:100px;width:300;"/></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+  
+ <div class="footer">
+ 
+  <a href="https://web.facebook.com/MayorDingdongPonggos"><img src="icon/fb.png" style="width:30px; height:30px;">MayorDingdongPonggos</a>
+   <a href="mailto:mayoregpalitagtag2019@gmail.com"><img src="icon/mail.png" style="width:30px; height:30px;">mayoregpalitagtag2019@gmail</a>
+    <img src="icon/hot.png" style="width:30px; height:30px;">(043) 772-0154</div>
+  
+</div>
+
+
+</body>
